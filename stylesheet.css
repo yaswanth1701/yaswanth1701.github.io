@@ -213,3 +213,27 @@ span.highlight {
   margin: 0;
   color: #444444;
 }
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  table, tbody, tr, td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+  
+  td {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  img, video {
+    margin: 0 auto 15px auto !important;
+    display: block !important;
+  }
+
+  .timeline-item {
+    padding: 10px 10px 30px 30px !important;
+  }
+}
